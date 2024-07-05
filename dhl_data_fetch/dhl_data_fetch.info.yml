@@ -1,0 +1,5 @@
+name: 'DHL Data Fetch'
+type: module
+description: 'A custom module to get API response based on form fields.'
+core_version_requirement: ^10
+package: Custom

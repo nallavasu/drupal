@@ -1,0 +1,10 @@
+<?php
+
+const MEDS_TOPIC_TEMPLATES_ACCESS_TRANSLATE_CONTEXT = 'meds_topic_templates_access';
+
+/**
+ * Helper function to get Node IDs by Topic Templates UUIDs.
+ */
+function meds_topic_templates_access_templates_nids() {
+  return [3, 4, 1, 2];
+}

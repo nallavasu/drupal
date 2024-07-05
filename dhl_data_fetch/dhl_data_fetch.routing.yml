@@ -1,0 +1,15 @@
+dhl_data_fetch.form:
+  path: '/dhl-data'
+  defaults:
+    _form: '\Drupal\dhl_data_fetch\Form\MyCustomForm'
+    _title: 'Custom API Form'
+  requirements:
+    _permission: 'access content'
+
+dhl_data_fetch.api_response:
+  path: '/dhl_data_fetch/api-response'
+  defaults:
+    _controller: '\Drupal\dhl_data_fetch\Controller\MyCustomController::getApiResponse'
+    _title: 'API Response'
+  requirements:
+    _permission: 'access content'    
